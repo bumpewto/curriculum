@@ -1,5 +1,5 @@
 {
-  "name": "cv",
+  "name": "curriculum",
   "version": "0.0.3",
   "main": "index.html",
   "license": "MIT",
@@ -9,5 +9,7 @@
   },
   "dependencies": {
     "parcel-bundler": "1.12.4"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
