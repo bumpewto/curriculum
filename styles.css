@@ -1,0 +1,98 @@
+@font-face {
+  font-family: TiemposText;
+  src: url("./fonts/TiemposTextWeb-Semibold.woff") format("woff");
+}
+@font-face {
+  font-family: Apercu;
+  src: url("./fonts/Apercu.woff") format("woff");
+}
+html {
+  box-sizing: border-box;
+  font-size: 12.5px;
+}
+body {
+  font-family: Apercu, sans-serif;
+  font-variant: common-ligatures slashed-zero;
+  color: #111;
+  margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  font-family: TiemposText, serif;
+
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0;
+}
+.xp {
+  display: list-item;
+}
+h4 {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-top: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #111;
+}
+.header span {
+  font-variant: all-small-caps;
+  letter-spacing: 0.05rem;
+}
+.header ul {
+  list-style: none;
+}
+
+.textblock {
+  padding: 0 0 0.5rem 0;
+}
+
+.xp-text {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.footer-left {
+  grid-column: 1;
+}
+
+.footer-right {
+  grid-column: 2;
+}
+
+.footer {
+  display: grid;
+  grid: 100% / 50% 50%;
+  gap: 2rem;
+}
+
+.bottom-grid {
+  display: grid;
+  grid: 100% / 50% 50%;
+  grid-gap: 1rem;
+}
+.formation {
+  grid-column: 1;
+}
+
+.skills {
+  grid-column: 2;
+}
+@media print {
+  html {
+    font-size: 12.5px;
+  }
+}
